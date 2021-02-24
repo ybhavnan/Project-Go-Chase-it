@@ -1442,10 +1442,10 @@
       <pose frame=''>-4.49489 -4.01415 0 0 -0 0</pose>
     </model>
     <state world_name='default'>
-      <sim_time>662 347000000</sim_time>
-      <real_time>265 567457772</real_time>
-      <wall_time>1613853461 688862150</wall_time>
-      <iterations>163217</iterations>
+      <sim_time>548 398000000</sim_time>
+      <real_time>99 696356394</real_time>
+      <wall_time>1613970466 107151672</wall_time>
+      <iterations>49268</iterations>
       <model name='cafe'>
         <pose frame=''>28.4735 -4.27409 0 0 -0 0</pose>
         <scale>1 1 1</scale>
@@ -1571,35 +1571,35 @@
         </link>
       </model>
       <model name='my_ball'>
-        <pose frame=''>4.82547 6.88307 0.1 0 -0 0</pose>
+        <pose frame=''>7.78483 -3.69915 0.1 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>4.82547 6.88307 0.1 0 -0 0</pose>
+          <pose frame=''>7.78483 -3.69915 0.1 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='my_robot'>
-        <pose frame=''>2.33911 -4.77473 0.100001 -1e-05 0.000529 0.007658</pose>
+        <pose frame=''>2.33975 -4.77449 0.099999 -1.8e-05 0.000469 0.002469</pose>
         <scale>1 1 1</scale>
         <link name='left_wheel'>
-          <pose frame=''>2.33796 -4.62473 0.099999 -1.1e-05 -0.001281 0.007658</pose>
-          <velocity>8.2e-05 0.000877 -0.003027 -0.008856 0.000926 2.7e-05</velocity>
-          <acceleration>-0.010805 2.71948 -9.201 -2.16933 -0.002515 0.014739</acceleration>
-          <wrench>-0.054024 13.5974 -46.005 0 -0 0</wrench>
+          <pose frame=''>2.33938 -4.62449 0.099997 -1.9e-05 -0.000156 0.002469</pose>
+          <velocity>0.000225 0.001668 -0.005583 -0.016741 0.002349 2.4e-05</velocity>
+          <acceleration>0.003887 2.73099 -9.17462 -2.2614 0.136463 0.016774</acceleration>
+          <wrench>0.019435 13.655 -45.8731 0 -0 0</wrench>
         </link>
         <link name='right_wheel'>
-          <pose frame=''>2.34026 -4.92472 0.100002 -7e-06 0.004413 0.007658</pose>
-          <velocity>9.2e-05 0.000883 -0.000232 -0.008865 0.000924 2.9e-05</velocity>
-          <acceleration>-0.002129 2.7297 -0.703464 -2.19434 -0.016532 0.018631</acceleration>
-          <wrench>-0.010643 13.6485 -3.51732 0 -0 0</wrench>
+          <pose frame=''>2.34012 -4.92449 0.100002 -1.5e-05 0.001758 0.002469</pose>
+          <velocity>0.000234 0.001672 -0.000427 -0.016757 0.002346 2.6e-05</velocity>
+          <acceleration>0.012096 2.73966 -0.702921 -2.28929 0.126148 0.019895</acceleration>
+          <wrench>0.060479 13.6983 -3.5146 0 -0 0</wrench>
         </link>
         <link name='robot_footprint'>
-          <pose frame=''>2.33911 -4.77473 0.100001 -1e-05 0.000529 0.007658</pose>
-          <velocity>8.7e-05 0.000814 -0.001637 -0.009149 0.000924 2.7e-05</velocity>
-          <acceleration>-0.005342 2.58066 -4.9679 -2.80618 -0.021482 0.016565</acceleration>
-          <wrench>-0.080665 38.9679 -75.0152 0 -0 0</wrench>
+          <pose frame=''>2.33975 -4.77449 0.099999 -1.8e-05 0.000469 0.002469</pose>
+          <velocity>0.000229 0.001606 -0.003013 -0.017025 0.002348 2.5e-05</velocity>
+          <acceleration>0.00803 2.61423 -4.95412 -2.7972 0.128736 0.01804</acceleration>
+          <wrench>0.121258 39.4749 -74.8072 0 -0 0</wrench>
         </link>
       </model>
       <model name='newRobot'>
@@ -1708,7 +1708,7 @@
     </state>
     <gui fullscreen='0'>
       <camera name='user_camera'>
-        <pose frame=''>-2.03586 -13.9749 11.6676 -0 0.425498 0.792748</pose>
+        <pose frame=''>64.3954 -9.45231 25.4533 0 0.300225 -3.09413</pose>
         <view_controller>orbit</view_controller>
         <projection_type>perspective</projection_type>
       </camera>
@@ -3679,7 +3679,7 @@
       </link>
       <static>0</static>
       <allow_auto_disable>1</allow_auto_disable>
-      <pose frame=''>9.05171 -7.44248 0 0 -0 0</pose>
+      <pose frame=''>7.78483 -3.69915 0 0 -0 0</pose>
     </model>
   </world>
 </sdf>
