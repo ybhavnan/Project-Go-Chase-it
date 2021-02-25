@@ -66,10 +66,10 @@ void process_image_callback(const sensor_msgs::Image img)
     int move_position = -1;
     int idx;
     int col_index;
-    for(idx = 0; idx < (data_size) ; idx++)
+    for(idx = 0; idx < (data_size); idx += 3)
     {
 
-        if(img.data[idx] == white_pixel)
+        if((img.data[idx] == white_pixel) && (img.data[idx+1] == white_pixel) && (img.data[idx+2] == white_pixel))
         {
             is_white = true;
             break;
